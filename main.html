@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="part1">
+    <h6><span>OUR PROGRESS </span></h6>
+    
+</div>
+<div class="part2">
+    <h2>thefutur</h2>
+    <div id="counter"></div>
+    <h1>The march to 1 billion begins with you</h1>
+    <div class="desc">
+        Every big, hairy, audacious goal starts a single 
+        step. Join us on our journey.
+    </div>
+    <div class="desc" id = descriptionsmall>
+        Enter your email address and you'll be assigned
+        a permanent number -- you'll be one in a billion officially. You'll also be added tol our email 
+        newsletter, of which you can opt out any time.
+    </div>
+    <div class="inputfield">
+            <div class="name">
+            <input type="text" placeholder="First name" id="firstname" value = "" required>
+            <input type="text" placeholder="Last name" id = "lastname" value = "" required>
+            
+        </div>
+        <div class="texterror"></div>
+            <div class="name">
+            <input type="email" placeholder="Email address" id = "emailaddress" value = "" required>
+        
+        </div>
+        <div class="emailerror"></div>
+        </div>
+            <div id="canweemail">
+                Can we email you?
+            </div>
+            
+            <div id="checkboxtick">
+                <label for="">
+                <input type="checkbox" name="get email" id="getemail" > Yes, I'd like to receive emails from the Futur</label>
+                <span class="checkmark"></span>
+            </div>
+            <button type ="submit" onclick="validate()"> GET YOUR NUMBER</button>
+       
+   
+
+</div>
+<script src="./main.js"></script>
+</body>
+</html>
