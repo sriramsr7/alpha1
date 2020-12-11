@@ -13,7 +13,6 @@ var seperator = (value)=>{
         htmltext = "<div class = 'digit'>"+temp+"</div>"+htmltext;
         val = parseInt(val/10)
     }
-    console.log(htmltext);
     
     counterDiv.innerHTML = htmltext;
 }
@@ -79,4 +78,3 @@ var validate = ()=>{
 }
 let value = localStorage.getItem("count");
 seperator(value);
-console.log(counterDiv);
