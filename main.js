@@ -1,6 +1,7 @@
 let counterDiv = document.getElementById("counter");
-if (localStorage.getItem("count") == null){
-    localStorage.setItem("count",17416);
+if (localStorage.getItem("flag") == null){
+    localStorage.setItem("count",999);
+    localStorage.setItem("flag",1);
 }
 var seperator = (value)=>{
     let val = parseInt(value);
@@ -72,6 +73,7 @@ var validate = ()=>{
         fname.value = '';
         lname.value = '';
         email.value = '';
+        alert("submission successfull!");
         
     }
 
