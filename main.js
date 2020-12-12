@@ -1,6 +1,6 @@
 let counterDiv = document.getElementById("counter");
 if (localStorage.getItem("flag") == null){
-    localStorage.setItem("count",999);
+    localStorage.setItem("count",998);
     localStorage.setItem("flag",1);
 }
 var seperator = (value)=>{
